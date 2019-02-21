@@ -23,7 +23,8 @@ const GamesListItem = ({ sku, title, img, editAction, delAction, urlPath }) => {
             <CardMedia
               component="img"
               alt={`${sku} ${title}`}
-              src={`${imgBase}${img}`}
+              style={{maxHeight: 200}}
+              src={img}
               title={title}
             />
           </Link>
