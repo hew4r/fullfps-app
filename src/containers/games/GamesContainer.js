@@ -52,7 +52,6 @@ GamesContainer.defaultProps = {
     games: [ ]
 };
 
-
 const mapDispatchToProps = { fetchGames };
 
 const mapStateToProps = state => ({

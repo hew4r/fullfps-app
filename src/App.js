@@ -5,6 +5,7 @@ import cat from './cat.svg';
 import './App.css';
 import HomeContainer from "./containers/HomeContainer";
 import GamesContainer from "./containers/games/GamesContainer";
+import GameContainer from "./containers/games/GameContainer";
 
 class App extends Component {
   
@@ -26,7 +27,7 @@ class App extends Component {
 
           <Switch>
             <Route exact path="/games/new" component={this.renderGameNewContainer}/>
-            <Route exact path="/games/:sku" component={this.renderGameContainer}/>
+            <Route exact path="/games/:sku" component={GameContainer}/>
           </Switch>
           
           {/*
