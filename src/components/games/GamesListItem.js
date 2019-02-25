@@ -13,7 +13,7 @@ import {
 
 const imgBase = "../../images/";
 
-const GamesListItem = ({ sku, title, img, editAction, delAction, urlPath }) => {
+const GamesListItem = ({ sku, platform, title, img, editAction, delAction, urlPath }) => {
 
   return (
     <div className="games-list-item">
@@ -54,6 +54,7 @@ const GamesListItem = ({ sku, title, img, editAction, delAction, urlPath }) => {
 
 GamesListItem.propTypes = {
   sku: PropTypes.string.isRequired,
+  platform: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   editAction: PropTypes.string.isRequired,
   delAction: PropTypes.string.isRequired,

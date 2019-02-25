@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="f072e11a-4800-404e-a340-0c05da37cf2c" name="Default Changelist" comment="">
 <<<<<<< Updated upstream
       <change afterPath="$PROJECT_DIR$/src/actions/fetchGames.js" afterDir="false" />
@@ -21,6 +22,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
 >>>>>>> Stashed changes
     </list>
+=======
+    <list default="true" id="f072e11a-4800-404e-a340-0c05da37cf2c" name="Default Changelist" comment="" />
+>>>>>>> Stashed changes
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +36,7 @@
     <session id="-1265594190">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.opened" value="2" />
@@ -233,6 +237,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/actions/fetchGames.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="288">
               <caret line="50" column="4" lean-forward="true" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
 =======
@@ -241,6 +246,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
               <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+>>>>>>> Stashed changes
+=======
+            <state relative-caret-position="187">
+              <caret line="49" column="38" lean-forward="true" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
 >>>>>>> Stashed changes
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -327,7 +336,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="293" />
     <option name="y" value="81" />
     <option name="width" value="1382" />
@@ -409,7 +418,7 @@
     <property name="ACTIVE_CLOUD_PROJECT_NUMBER" value="614321332467" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550700137515" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550700911699" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -460,21 +469,29 @@
       <workItem from="1550499840490" duration="9435000" />
       <workItem from="1550583567730" duration="17826000" />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <workItem from="1550675175898" duration="7808000" />
 =======
       <workItem from="1550608593662" duration="3641000" />
+>>>>>>> Stashed changes
+=======
+      <workItem from="1550675175898" duration="8477000" />
 >>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="45283000" />
+=======
+    <option name="totallyTimeSpent" value="45952000" />
+>>>>>>> Stashed changes
   </component>
   <component name="ToolWindowManager">
-    <frame x="293" y="81" width="1382" height="671" extended-state="1" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
+<<<<<<< Updated upstream
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6752688" visible="true" weight="0.15153733" />
 =======
     <option name="totallyTimeSpent" value="37984000" />
@@ -484,6 +501,9 @@
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6752688" visible="true" weight="0.26928896" />
+>>>>>>> Stashed changes
+=======
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6752688" visible="true" weight="0.1078125" />
 >>>>>>> Stashed changes
       <window_info id="Structure" order="1" sideWeight="0.32473117" side_tool="true" weight="0.2655068" />
       <window_info id="Designer" order="2" />
@@ -503,7 +523,11 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49853587" visible="true" weight="0.33810377" />
+=======
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49853587" visible="true" weight="0.7309322" />
+>>>>>>> Stashed changes
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5014641" side_tool="true" weight="0.29439253" />
 =======
       <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.38548386" />
@@ -759,6 +783,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/actions/fetchGames.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="288">
           <caret line="50" column="4" lean-forward="true" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
 =======
@@ -766,6 +791,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="26" />
+=======
+        <state relative-caret-position="187">
+          <caret line="49" column="38" lean-forward="true" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
+>>>>>>> Stashed changes
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

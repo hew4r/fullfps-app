@@ -11,6 +11,7 @@ const GamesList = ({ games, urlPath }) => {
             <GamesListItem
               key={g.sku}
               sku={g.sku}
+              platform={g.platform}
               title={g.title}
               img={g.img}
               editAction={'Editar'}

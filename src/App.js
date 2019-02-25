@@ -6,37 +6,45 @@ import './App.css';
 import HomeContainer from "./containers/HomeContainer";
 import GamesContainer from "./containers/games/GamesContainer";
 import GameContainer from "./containers/games/GameContainer";
+import AppNavBar from "./components/AppNavBar";
 
 class App extends Component {
-  
-  renderHome = () => <h1>Home</h1>;
-  
-  renderGameContainer = () => <img src={devbot} className="App-logo" alt="devbot" />
-  
-  renderGamesListContainer = () => <img src={cat} className="App-logo" alt="cat" />
   
   renderGameNewContainer = () => <h1>Game New Container</h1>
   
   render() {
     return (
-      
-      <Router>
-        <div className="App">
-          <Route exact path="/" component={HomeContainer}/>
-          <Route exact path="/games" component={GamesContainer}/>
 
-          <Switch>
-            <Route exact path="/games/new" component={this.renderGameNewContainer}/>
-            <Route exact path="/games/:sku" component={GameContainer}/>
-          </Switch>
-          
-          {/*
-          <header className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
-          </header>
-          <Link to="/games">games...</Link>*/}
-        </div>
-      </Router>
+      <nav>
+          <nav-wrapper>
+
+
+
+            <Router>
+              <div className="App">
+                  <AppNavBar/>
+                <Route exact path="/" component={HomeContainer}/>
+                <Route exact path="/:platform/games" component={GamesContainer}/>
+                <Switch>
+                  <Route exact path="/:platform/games/new" component={this.renderGameNewContainer}/>
+                  <Route exact path="/:platform/games/:sku" render={props =>
+                      <GameContainer
+                          platform={props.match.params.platform}
+                          sku={props.match.params.sku}/>}
+                  />
+
+                </Switch>
+
+                {/*
+                <header className="App-header">
+                  <img src={logo} className="App-logo" alt="logo" />
+                </header>
+                <Link to="/games">games...</Link>*/}
+
+              </div>
+            </Router>
+          </nav-wrapper>
+      </nav>
     );
   }
 }
