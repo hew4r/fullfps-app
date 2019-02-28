@@ -32,10 +32,24 @@ code {
   margin: 5px;
 }
 
-.games-list-item {
-  width: 160px;
-  margin: 1px;
-  padding: 4px;
-  background: #EEEEEE;
-  display: inline-block;
+
+
+.layout-appbar {
+  position: relative;
 }
+
+.layout-toolbar-title {
+  flex: 1;
+}
+
+.layout-root {
+  flex-grow: 1;
+}
+
+.layout-paper {
+  text-align: center;
+  padding: auto;
+  color: #AAAAAA;
+}
+
+

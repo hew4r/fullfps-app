@@ -5,7 +5,7 @@ import AppHeader from "./AppHeader";
 const AppFrame = ({ header, body }) => {
   return (
     <div>
-      <div className="app-frame">
+      <div>
         <AppHeader title={header}/>
         <div>{body}</div>
         <div>full fps</div>

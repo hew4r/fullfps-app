@@ -11,7 +11,8 @@
     "genre": "Role Playing",
     "edition": "Standard Edition",
     "softwareFormat": "Physical",
-    "multiplayer": "Yes"
+    "multiplayer": "Yes",
+    "price": 59.99
   },
   {
     "sku": "6216393",
@@ -24,7 +25,8 @@
     "genre": "Role Playing",
     "edition": "Standard Edition",
     "softwareFormat": "Physical",
-    "multiplayer": "No"
+    "multiplayer": "No",
+    "price": 39.99
   },
   {
     "sku": "6256852",
@@ -37,7 +39,8 @@
     "genre": "First Person Shooter",
     "edition": "Standard Edition",
     "softwareFormat": "Physical",
-    "multiplayer": "Yes"
+    "multiplayer": "Yes",
+    "price": 49.99
   }
 ]
 }

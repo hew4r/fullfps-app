@@ -1,13 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Typography } from '@material-ui/core';
 
 const AppHeader = props => {
   return (
-    <div>
-      <div className="app-header">
-        <h1>{ props.title }</h1>
-      </div>
-    </div>
+      <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
+          { props.title }
+      </Typography>
   );
 };
 

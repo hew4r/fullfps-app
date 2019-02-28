@@ -4,7 +4,7 @@ import { withRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { Button  } from '@material-ui/core';
 import AddIcon from '@material-ui/icons/Add';
-import AppFrame from "../../components/AppFrame";
+import AppFrame from "../../components/layout/AppFrame";
 import GamesList from "../../components/games/GamesList";
 import GamesActions from "../../components/games/GamesActions";
 import { fetchGames } from "../../actions/fetchGames";
@@ -35,8 +35,9 @@ class GamesContainer extends Component {
     render() {
         return (
             <div>
+
                 <AppFrame
-                    header={'List of Games'}
+                    header={'Games'}
                     body={this.renderBody(this.props.games)} />
             </div>
         );

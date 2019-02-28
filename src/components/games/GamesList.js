@@ -14,6 +14,7 @@ const GamesList = ({ games, urlPath }) => {
               platform={g.platform}
               title={g.title}
               img={g.img}
+              price={g.price}
               editAction={'Editar'}
               delAction={'Eliminar'}
               urlPath={urlPath}/> )

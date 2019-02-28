@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { Route } from 'react-router-dom';
-import AppFrame from "../../components/AppFrame";
+import AppFrame from "../../components/layout/AppFrame";
 import {getGameBySku} from "../../selectors/games";
 import GameData from "../../components/games/GameData";
 import GameEdit from "../../components/games/GameEdit";
