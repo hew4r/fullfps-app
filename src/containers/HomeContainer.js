@@ -1,8 +1,5 @@
 import React, {Component} from 'react';
-import PropTypes from 'prop-types';
-import { withRouter } from 'react-router-dom';
 import AppFrame from "../components/layout/AppFrame";
-import GamesActions from "../components/games/GamesActions";
 
 class HomeContainer extends Component {
 

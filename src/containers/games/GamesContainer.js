@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import { withRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { Button  } from '@material-ui/core';
-import AddIcon from '@material-ui/icons/Add';
 import AppFrame from "../../components/layout/AppFrame";
 import GamesList from "../../components/games/GamesList";
 import GamesActions from "../../components/games/GamesActions";
@@ -11,7 +10,7 @@ import { fetchGames } from "../../actions/fetchGames";
 import {getGames} from "../../selectors/games";
 
 class GamesContainer extends Component {
-
+  
     componentDidMount() {
         this.props.fetchGames();
     }
@@ -22,8 +21,9 @@ class GamesContainer extends Component {
 
     renderBody = games => (
         <div>
+       
             <GamesList games={games} urlPath={'games/'}/>
-
+         
             <GamesActions>
                 <Button variant="contained" color="primary" onClick={this.handleAddNew}>
                     Add
@@ -33,7 +33,9 @@ class GamesContainer extends Component {
     )
   
     render() {
+ 
         return (
+         
             <div>
 
                 <AppFrame
@@ -50,14 +52,16 @@ GamesContainer.propTypes = {
 };
 
 GamesContainer.defaultProps = {
-    games: [ ]
+    games: []
 };
 
 const mapDispatchToProps = { fetchGames };
 
 const mapStateToProps = state => ({
     games: getGames(state)
-});
+}
+
+);
 
 export default withRouter(connect(mapStateToProps, mapDispatchToProps)(GamesContainer));
 

@@ -1,4 +1,4 @@
-import {FETCH_GAMES} from "../constants";
+import { FETCH_GAMES } from "../constants";
 import { createAction } from 'redux-actions';
 import { apiGet } from "../api";
 import { urlGames } from "../api/urls";

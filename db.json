@@ -1,46 +1,548 @@
 {
-  "games": [
-  {
-    "sku": "6259290",
-    "title": "Anthem",
-    "img": "https://www.gamestop.com/common/images/lbox/172910b.jpg",
-    "publisher": "EA",
-    "releaseDate": "22/02/2019",
-    "developer": "BioWare",
-    "platform":	"ps4",
-    "genre": "Role Playing",
-    "edition": "Standard Edition",
-    "softwareFormat": "Physical",
-    "multiplayer": "Yes",
-    "price": 59.99
-  },
-  {
-    "sku": "6216393",
-    "title": "Pokémon",
-    "img": "https://www.gamestop.com/common/images/lbox/168862b.jpg",
-    "publisher": "Nintendo",
-    "releaseDate": "16/11/2018",
-    "developer": "Game Freak",
-    "platform":	"Nintendo Switch",
-    "genre": "Role Playing",
-    "edition": "Standard Edition",
-    "softwareFormat": "Physical",
-    "multiplayer": "No",
-    "price": 39.99
-  },
-  {
-    "sku": "6256852",
-    "title": "Battlefield V",
-    "img": "https://www.gamestop.com/common/images/lbox/169892b.jpg",
-    "publisher": "EA",
-    "releaseDate": "20/11/2018",
-    "developer": "Game Freak",
-    "platform":	"Windows",
-    "genre": "First Person Shooter",
-    "edition": "Standard Edition",
-    "softwareFormat": "Physical",
-    "multiplayer": "Yes",
-    "price": 49.99
-  }
-]
+  "platforms": [
+    {
+      "codPlatform": "ps4",
+      "descPlatform": "PlayStation 4",
+      "games": [
+        {
+          "productName": "Anthem",
+          "modelNumber": "36996",
+          "sku": "6259290",
+          "releaseDate": "02/22/2019",
+          "price": 59.99,
+          "softwareFormat": "Physical",
+          "genre": [
+            {
+              "cdGenre": "rpl",
+              "descGenre": "Role Playing"
+            }
+          ],
+          "developer": "BioWare",
+          "publisher": "EA",
+          "brand": "EA",
+          "edition": "Standard Edition",
+          "multiplayer": "Yes",
+          "language(s)": [
+            {
+              "cdLanguage": "eng",
+              "descLanguage": "English"
+            }
+          ],
+          "mdImgUrl": "https://i.imgur.com/QUcHfUsm.jpg",
+          "lgImgUrl": "https://i.imgur.com/QUcHfUsl.jpg"
+        },
+        {
+          "productName": "Days Gone",
+          "modelNumber": "3001583",
+          "sku": "5358601",
+          "releaseDate": "04/26/2019",
+          "price": 59.99,
+          "softwareFormat": "Physical",
+          "genre": [
+            {
+              "cdGenre": "aad",
+              "descGenre": "Action and Adventure"
+            }
+          ],
+          "developer": "Sony Bend",
+          "publisher": "Sony",
+          "brand": "Sony",
+          "edition": "Standard Edition",
+          "multiplayer": "Yes",
+          "language(s)": [
+            {
+              "cdLanguage": "eng",
+              "descLanguage": "English"
+            }
+          ],
+          "mdImgUrl": "https://i.imgur.com/4AkAnDym.jpg",
+          "lgImgUrl": "https://i.imgur.com/4AkAnDyl.jpg"
+        },
+        {
+          "productName": "Dead or Alive 6",
+          "modelNumber": "12345",
+          "sku": "6255126",
+          "releaseDate": "03/01/2019",
+          "price": 59.99,
+          "softwareFormat": "Physical",
+          "genre": [
+            {
+              "cdGenre": "fig",
+              "descGenre": "Fighting"
+            }
+          ],
+          "developer": "Team Ninja",
+          "publisher": "Koei Tecmo",
+          "brand": "Koei Tecmo",
+          "edition": "Standard Edition",
+          "multiplayer": "Yes",
+          "language(s)": [
+            {
+              "cdLanguage": "eng",
+              "descLanguage": "English"
+            }
+          ],
+          "mdImgUrl": "https://i.imgur.com/hwmjTgFm.jpg",
+          "lgImgUrl": "https://i.imgur.com/hwmjTgFl.jpg"
+        },
+        {
+          "productName": "Marvel's Spider-Man",
+          "modelNumber": "E3 SKU",
+          "sku": "5360402",
+          "releaseDate": "09/07/2018",
+          "price": 39.99,
+          "softwareFormat": "Physical",
+          "genre": [
+            {
+              "cdGenre": "aad",
+              "descGenre": "Action and Adventure"
+            }
+          ],
+          "developer": "Insomniac Games",
+          "publisher": "Sony",
+          "brand": "Sony",
+          "edition": "Standard Edition",
+          "multiplayer": "No",
+          "language(s)": [
+            {
+              "cdLanguage": "eng",
+              "descLanguage": "English"
+            }
+          ],
+          "mdImgUrl": "https://i.imgur.com/L3DGGFtm.jpg",
+          "lgImgUrl": "https://i.imgur.com/L3DGGFtl.jpg"
+        },
+        {
+          "productName": "Metro Exodus Day One Edition",
+          "modelNumber": "D1451",
+          "sku": "5328200",
+          "releaseDate": "02/15/2019",
+          "price": 59.99,
+          "softwareFormat": "Physical",
+          "genre": [
+            {
+              "cdGenre": "aad",
+              "descGenre": "Action and Adventure"
+            },
+            {
+              "cdGenre": "fps",
+              "descGenre": "First Person Shooter"
+            }
+          ],
+          "developer": "4A Games",
+          "publisher": "Deep Silver",
+          "brand": "Deep Silver",
+          "edition": "Day 1 Edition",
+          "multiplayer": "No",
+          "language(s)": [
+            {
+              "cdLanguage": "eng",
+              "descLanguage": "English"
+            },
+            {
+              "cdLanguage": "cze",
+              "descLanguage": "Czech"
+            },
+            {
+              "cdLanguage": "fre",
+              "descLanguage": "French"
+            },
+            {
+              "cdLanguage": "ger",
+              "descLanguage": "German"
+            },
+            {
+              "cdLanguage": "ita",
+              "descLanguage": "Italian"
+            },
+            {
+              "cdLanguage": "pol",
+              "descLanguage": "Polish"
+            },
+            {
+              "cdLanguage": "por",
+              "descLanguage": "Portuguese"
+            },
+            {
+              "cdLanguage": "rus",
+              "descLanguage": "Russian"
+            },
+            {
+              "cdLanguage": "spa",
+              "descLanguage": "Spanish"
+            }
+          ],
+          "mdImgUrl": "https://i.imgur.com/AedZQCsm.jpg",
+          "lgImgUrl": "https://i.imgur.com/AedZQCsl.jpg"
+        },
+        {
+          "productName": "MLB The Show 19",
+          "modelNumber": 3003177,
+          "sku": "6314685",
+          "releaseDate": "03/26/2019",
+          "price": 59.99,
+          "softwareFormat": "Physical",
+          "genre": [
+            {
+              "cdGenre": "sao",
+              "descGenre": "Sports and Outdoors"
+            }
+          ],
+          "developer": "SCE San Diego Studio",
+          "publisher": "Sony Interactive Entertainment",
+          "brand": "Sony",
+          "edition": "Standard Edition",
+          "multiplayer": "Yes",
+          "language(s)": [
+            {
+              "cdLanguage": "eng",
+              "descLanguage": "English"
+            }
+          ],
+          "mdImgUrl": "https://i.imgur.com/XjDTbPum.jpg",
+          "lgImgUrl": "https://i.imgur.com/XjDTbPul.jpg"
+        }
+      ]
+    },
+    {
+      "codPlatform": "xbox",
+      "descPlatform": "Xbox One",
+      "games": [
+        {
+          "productName": "Madden NFL 19 Hall of Fame Edition",
+          "modelNumber": "73650",
+          "sku": "5705672",
+          "releaseDate": "03/21/2017",
+          "price": 13.99,
+          "softwareFormat": "Physical",
+          "genre": [
+            {
+              "cdGenre": "rpl",
+              "descGenre": "Role Playing"
+            }
+          ],
+          "developer": "BioWare",
+          "publisher": "EA",
+          "brand": "EA",
+          "edition": "Deluxe Edition",
+          "multiplayer": "Yes",
+          "language(s)": [
+            {
+              "cdLanguage": "eng",
+              "descLanguage": "English"
+            }
+          ],
+          "mdImgUrl": "https://i.imgur.com/0Q5ELB8m.jpg",
+          "lgImgUrl": "https://i.imgur.com/0Q5ELB8l.jpg"
+        },
+        {
+          "productName": "Mortal Kombat 11 Premium Edition",
+          "modelNumber": "XB1MKXICE",
+          "sku": "6319778",
+          "releaseDate": "04/23/2019",
+          "price": 99.99,
+          "softwareFormat": "Physical",
+          "genre": [
+            {
+              "cdGenre": "fig",
+              "descGenre": "Fighting"
+            }
+          ],
+          "developer": "NetherRealm Studios",
+          "publisher": "WB Games",
+          "brand": "WB Games",
+          "edition": "Premium Edition",
+          "multiplayer": "Yes",
+          "language(s)": [
+            {
+              "cdLanguage": "eng",
+              "descLanguage": "English"
+            }
+          ],
+          "mdImgUrl": "https://i.imgur.com/NVBfkjTm.jpg",
+          "lgImgUrl": "https://i.imgur.com/NVBfkjTl.jpg"
+        },
+        {
+          "productName": "Devil May Cry 5",
+          "modelNumber": "55045",
+          "sku": "6302390",
+          "releaseDate": "03/08/2019",
+          "price": 69.99,
+          "softwareFormat": "Physical",
+          "genre": [
+            {
+              "cdGenre": "aad",
+              "descGenre": "Action and Adventure"
+            }
+          ],
+          "developer": "Capcom",
+          "publisher": "Capcom",
+          "brand": "Capcom",
+          "edition": "Deluxe Edition",
+          "multiplayer": "No",
+          "language(s)": [
+            {
+              "cdLanguage": "eng",
+              "descLanguage": "English"
+            }
+          ],
+          "mdImgUrl": "https://i.imgur.com/Umewygvm.jpg",
+          "lgImgUrl": "https://i.imgur.com/Umewygvl.jpg"
+        },
+        {
+          "productName": "Forza Horizon 4",
+          "modelNumber": "GFP-00001",
+          "sku": "6255310",
+          "releaseDate": "10/02/2018",
+          "price": 29.99,
+          "softwareFormat": "Physical",
+          "genre": [
+            {
+              "cdGenre": "rac",
+              "descGenre": "Racing"
+            }
+          ],
+          "developer": "Playground Games",
+          "publisher": "Microsoft",
+          "brand": "Microsoft",
+          "edition": "Standard Edition",
+          "multiplayer": "Yes",
+          "language(s)": [
+            {
+              "cdLanguage": "eng",
+              "descLanguage": "English"
+            }
+          ],
+          "mdImgUrl": "https://i.imgur.com/XkYPWOam.jpg",
+          "lgImgUrl": "https://i.imgur.com/XkYPWOal.jpg"
+        },
+        {
+          "productName": "Resident Evil 2",
+          "modelNumber": "55036",
+          "sku": "6255301",
+          "releaseDate": "01/25/2019",
+          "price": 39.99,
+          "softwareFormat": "Physical",
+          "genre": [
+            {
+              "cdGenre": "hor",
+              "descGenre": "Horror"
+            }
+          ],
+          "developer": "Capcom",
+          "publisher": "Capcom",
+          "brand": "Capcom",
+          "edition": "Standard Edition",
+          "multiplayer": "No",
+          "language(s)": [
+            {
+              "cdLanguage": "eng",
+              "descLanguage": "English"
+            }
+          ],
+          "mdImgUrl": "https://i.imgur.com/usTsLhXm.jpg",
+          "lgImgUrl": "https://i.imgur.com/usTsLhXl.jpg"
+        },
+        {
+          "productName": "Madden NFL 19 Hall of Fame Edition",
+          "modelNumber": "73922",
+          "sku": "6257144",
+          "releaseDate": "08/07/2018",
+          "price": 39.99,
+          "softwareFormat": "Physical",
+          "genre": [
+            {
+              "cdGenre": "sao",
+              "descGenre": "Sports and Outdoors"
+            }
+          ],
+          "developer": "EA Tiburon",
+          "publisher": "EA",
+          "brand": "EA",
+          "edition": "Hall of Fame Edition",
+          "multiplayer": "Yes",
+          "language(s)": [
+            {
+              "cdLanguage": "eng",
+              "descLanguage": "English"
+            }
+          ],
+          "mdImgUrl": "https://i.imgur.com/wnyHoVpm.jpg",
+          "lgImgUrl": "https://i.imgur.com/wnyHoVpl.jpg"
+        }
+      ]
+    },
+    {
+      "codPlatform": "nintendo",
+      "descPlatform": "Nintendo Switch",
+      "games": [
+        {
+          "productName": "Yoshi's Crafted World",
+          "modelNumber": "HACPAEA2A",
+          "sku": "5897109",
+          "releaseDate": "03/29/2019",
+          "price": 59.99,
+          "softwareFormat": "Physical",
+          "genre": [
+            {
+              "cdGenre": "aad",
+              "descGenre": "Action and Adventure"
+            },
+            {
+              "cdGenre": "ptf",
+              "descGenre": "Platformer"
+            }
+          ],
+          "developer": "Nintendo",
+          "publisher": "Nintendo",
+          "brand": "Nintendo",
+          "edition": "Standard Edition",
+          "multiplayer": "Yes",
+          "language(s)": [
+            {
+              "cdLanguage": "eng",
+              "descLanguage": "English"
+            }
+          ],
+          "mdImgUrl": "https://i.imgur.com/BrlwaIWm.jpg",
+          "lgImgUrl": "https://i.imgur.com/BrlwaIWl.jpg"
+        },
+        {
+          "productName": "New Super Mario Bros. U Deluxe",
+          "modelNumber": "HACPADALA",
+          "sku": "6311892",
+          "releaseDate": "01/11/2019",
+          "price": 59.99,
+          "softwareFormat": "Physical",
+          "genre": [
+            {
+              "cdGenre": "aad",
+              "descGenre": "Action and Adventure"
+            },
+            {
+              "cdGenre": "ptf",
+              "descGenre": "Platformer"
+            }
+          ],
+          "developer": "Nintendo",
+          "publisher": "Nintendo",
+          "brand": "Nintendo",
+          "edition": "Standard Edition",
+          "multiplayer": "Yes",
+          "language(s)": [
+            {
+              "cdLanguage": "eng",
+              "descLanguage": "English"
+            },
+            {
+              "cdLanguage": "fre",
+              "descLanguage": "French"
+            },
+            {
+              "cdLanguage": "spa",
+              "descLanguage": "Spanish"
+            }
+          ],
+          "mdImgUrl": "https://i.imgur.com/Mvme0pAm.jpg",
+          "lgImgUrl": "https://i.imgur.com/Mvme0pAl.jpg"
+        },
+        {
+          "productName": "Captain Toad: Treasure Tracker",
+          "modelNumber": "HACPAJH9A",
+          "sku": "6219550",
+          "releaseDate": "07/13/2018",
+          "price": 39.99,
+          "softwareFormat": "Physical",
+          "genre": [
+            {
+              "cdGenre": "puz",
+              "descGenre": "Puzzle"
+            }
+          ],
+          "developer": "Nintendo",
+          "publisher": "Nintendo",
+          "brand": "Nintendo",
+          "edition": "Standard Edition",
+          "multiplayer": "No",
+          "language(s)": [
+            {
+              "cdLanguage": "eng",
+              "descLanguage": "English"
+            },
+            {
+              "cdLanguage": "spa",
+              "descLanguage": "Spanish"
+            }
+          ],
+          "mdImgUrl": "https://i.imgur.com/tUpadiem.jpg",
+          "lgImgUrl": "https://i.imgur.com/tUpadiel.jpg"
+        },
+        {
+          "productName": "Golf Story",
+          "modelNumber": "LR02139",
+          "sku": "6308322",
+          "releaseDate": "12/11/2018",
+          "price": 29.99,
+          "softwareFormat": "Physical",
+          "genre": [
+            {
+              "cdGenre": "aad",
+              "descGenre": "Action and Adventure"
+            },
+            {
+              "cdGenre": "rpl",
+              "descGenre": "Role Playing"
+            },
+            {
+              "cdGenre": "sao",
+              "descGenre": "Sports and Outdoors"
+            }
+          ],
+          "developer": "Sidebar Games",
+          "publisher": "Limited Run Games",
+          "brand": "Limited Run Games",
+          "edition": "Standard Edition",
+          "multiplayer": "Yes",
+          "language(s)": [
+            {
+              "cdLanguage": "eng",
+              "descLanguage": "English"
+            }
+          ],
+          "mdImgUrl": "https://i.imgur.com/B81JPYom.jpg",
+          "lgImgUrl": "https://i.imgur.com/B81JPYol.jpg"
+        },
+        {
+          "productName": "Donkey Kong Country: Tropical Freeze",
+          "modelNumber": "HACPAFWTA",
+          "sku": "6193916",
+          "releaseDate": "05/04/2018",
+          "price": 59.99,
+          "softwareFormat": "Physical",
+          "genre": "Platformer",
+          "developer": "Retro Studios",
+          "publisher": "Nintendo",
+          "brand": "Nintendo",
+          "edition": "Standard Edition",
+          "multiplayer": "Yes",
+          "language(s)": [
+            {
+              "cdLanguage": "eng",
+              "descLanguage": "English"
+            },
+            {
+              "cdLanguage": "fre",
+              "descLanguage": "French"
+            },
+            {
+              "cdLanguage": "spa",
+              "descLanguage": "Spanish"
+            }
+          ],
+          "mdImgUrl": "https://i.imgur.com/TXAIPMym.jpg",
+          "lgImgUrl": "https://i.imgur.com/TXAIPMyl.jpg"
+        }
+      ]
+    }
+  ]
 }

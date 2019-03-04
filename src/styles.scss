@@ -16,8 +16,45 @@
   }
 }
 
+.games-list {
+  flex-grow: 1;
+
+  .container {
+    justify-content: center;
+  }
+}
+
+.game-card {
+  max-width: 320px;
+  .media {
+    object-fit: cover;
+
+    max-height: 320px;
+
+  }
+}
+
+
+.game-data {
+  flex-grow: 1;
+  align-content: center;
+
+}
+
+.game-detail-card {
+  max-width: 500px;
+  align-items: center;
+  .media {
+    object-fit: cover;
+  }
+
+}
+
+
+
 .games-list-item {
   flex-grow: 1;
+  align-content: center;
 
   .paper {
     padding: inherit;
@@ -40,7 +77,13 @@
   .action {
     cursor: pointer;
   }
+}
+
+
+.game-edit-field {
+  flex-grow: 1;
+  align-content: center;
+  width: 350px;
 
 
 }
-

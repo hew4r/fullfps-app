@@ -5,6 +5,9 @@
   "dependencies": {
     "@material-ui/core": "^3.9.2",
     "@material-ui/icons": "^3.0.2",
+    "lodash.map": "^4.6.0",
+    "lodash.pairs": "^3.0.1",
+    "lodash.topairs": "^4.3.0",
     "material-ui": "^0.20.2",
     "materialize-css": "^1.0.0",
     "node-sass": "^4.11.0",
@@ -16,6 +19,7 @@
     "react-scripts": "2.1.5",
     "redux": "^4.0.1",
     "redux-actions": "^2.6.4",
+    "redux-form": "^8.1.0",
     "redux-promise": "^0.6.0",
     "reselect": "^4.0.0"
   },
